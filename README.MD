@@ -40,4 +40,5 @@ I will structure the work maintinig control and documentation among the steps.
 
  # Changelog
 
+2. Header, HTML and CSS
 1. Repository, structure folders and files, readme.
