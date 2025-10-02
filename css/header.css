@@ -1,0 +1,56 @@
+/*RESET*/
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/*HEADER MAINFRAME*/
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr; /*could it be?*/
+  background-color: #fac100;
+  height: 110px;
+  align-items: center; /*secondary axis*/
+  font-weight: 900;
+  font-family: "roboto";
+  font-size: 1.2rem; /*GOTCHA!*/
+  color: white;
+  border-bottom: 5px solid white; /*I bet*/
+}
+/*HEADER LINKS*/
+
+.header__links {
+  display: flex;
+  flex-direction: row;
+  gap: 40px; /*Space between links*/
+}
+
+header a {
+  text-decoration: none;
+  color: white; /*remove link default format*/
+  position: relative; /*this is getting messy I know*/
+  padding-bottom: 5px;
+}
+/*LINKS EFFECT*/
+header a:hover {
+  /*Now wait and see*/
+  transform: translateY(-5px); /*uff almost*/
+  border-bottom: 3px solid white;
+  /*Meh, ok I tried, the 3px border makes the rest raise up a little bit*/
+}
+/*PHONE*/
+
+.header__phone {
+  display: flex;
+  align-items: center;
+  /*Should i make it do something?*/
+}
+
+.header__phone svg {
+  width: 40px;
+  margin-right: 10px;
+}
+.header__phone svg:hover {
+  cursor: pointer; /*pointer hand on hover for the moment*/
+}
