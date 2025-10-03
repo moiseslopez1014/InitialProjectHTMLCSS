@@ -40,6 +40,7 @@ I will structure the work maintinig control and documentation among the steps.
 
  # Changelog
 
+5. Section with company stats.
 4. Cover with motto section built.
 3. Root variables, readjust header.
 2. Header, HTML and CSS

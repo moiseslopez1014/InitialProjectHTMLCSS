@@ -1,0 +1,23 @@
+/*STATS-SECTION*/
+
+.stats {
+    background-color: var(--light-section);
+    height: 415px;
+    border-bottom: 4px solid #c4c4c4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-family: var(--secondary-font);
+    line-height: 1.7;
+}
+/*NUMBERS*/
+.stats h2 {
+    font-size: 3.1rem;
+    font-weight: 800;
+}
+/*STAT-NAMES*/
+.stats p {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
