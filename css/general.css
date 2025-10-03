@@ -1,6 +1,7 @@
 /*DEFINED VARIABLES, COLORPALETTES AND FONTS*/
 :root {
     --main-font: "roboto";
+    --secondary-font: "montserrat";
     --main-color: #fac100;
     --secondary-color: #FFFFFF;
     /*In case the greys change in the future*/
