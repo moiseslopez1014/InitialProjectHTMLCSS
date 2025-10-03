@@ -1,0 +1,16 @@
+/*DEFINED VARIABLES, COLORPALETTES AND FONTS*/
+:root {
+    --main-font: "roboto";
+    --main-color: #fac100;
+    --secondary-color: #FFFFFF;
+    /*In case the greys change in the future*/
+    --light-section: #F9F9F9;
+    --darker-section: #F5F5F5;
+    --darkest-section: #D9D9D9;
+}
+
+/*RESET*/
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
