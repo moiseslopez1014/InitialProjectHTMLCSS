@@ -1,24 +1,25 @@
 /*DEFINED VARIABLES, COLORPALETTES AND FONTS*/
 :root {
-    --main-font: "roboto";
-    --secondary-font: "montserrat";
-    --main-color: #fac100;
-    --secondary-color: #FFFFFF;
-    /*In case the greys for section backgrounds change in the future...*/
-    --light-section: #F9F9F9;
-    --darker-section: #F5F5F5;
-    --darkest-section: #D9D9D9;
+  --main-font: "roboto";
+  --secondary-font: "montserrat";
+  --main-color: #fac100;
+  --secondary-color: #ffffff;
+  /*In case the greys for section backgrounds change in the future...*/
+  --light-section: #f9f9f9;
+  --darker-section: #f5f5f5;
+  --darkest-section: #d9d9d9;
 }
 
 /*RESET*/
 * {
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 /*COMPANY TEMPLATES - COME HERE CHECK EVERYTIME YOU SEE A CLASS STARTING BY COMPANY WORD*/
 .companyColoredMain {
-    color: var(--main-color); /*For company main color in titles*/
+  color: var(--main-color); /*For company main color in titles*/
 }
 /*FOR SECTION TITLES*/
 .companyH2 {
