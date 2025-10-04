@@ -1,52 +1,39 @@
-/*HEADER MAINFRAME*/
-
 header {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr; /*could it be?*/
+  grid-template-columns: 1fr 2fr 2fr;
   background-color: var(--main-color);
   height: 110px;
-  align-items: center; /*secondary axis*/
+  align-items: center;
   font-weight: 900;
   font-family: var(--main-font);
-  font-size: 1.2rem; /*GOTCHA!*/
+  font-size: 1.2rem;
   color: var(--secondary-color);
-  border-bottom: 5px solid white; /*I bet*/
+  border-bottom: 5px solid white;
 }
-/*HEADER LINKS*/
-
 .header__links {
   display: flex;
   flex-direction: row;
-  gap: 40px; /*Space between links*/
+  gap: 40px;
 }
-
 header a {
   text-decoration: none;
-  color: var(--secondary-color); /*remove link default format*/
-  position: relative; /*this is getting messy I know*/
+  color: var(--secondary-color);
+  position: relative;
   padding-bottom: 5px;
-  border-bottom: 3px solid var(--main-color); /*ohhhhh I cant it*/
+  border-bottom: 3px solid var(--main-color);
 }
-/*LINKS EFFECT*/
 header a:hover {
-  /*Now wait and see*/
-  transform: translateY(-5px); /*uff almost*/
+  transform: translateY(-5px);
   border-bottom: 3px solid var(--secondary-color);
-  /*Meh, ok I tried, the 3px border makes the rest raise up a little bit*/
-} /*Fixed, border with same color, all of them raise with a border same color as the background, so its not hidden, but not visible either, HA!*/
-
-/*PHONE, also includes search icon*/
-
+}
 .header__phone {
   display: flex;
   align-items: center;
-  /*Should i make it do something?*/
 }
-
 .header__phone svg {
   width: 40px;
   margin-right: 10px;
 }
 .header__phone svg:hover {
-  cursor: pointer; /*pointer hand on hover for the moment*/
+  cursor: pointer;
 }

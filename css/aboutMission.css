@@ -1,20 +1,14 @@
-/*ABOUT US SECTION*/
-
 .about {
   display: flex;
   padding: 100px;
   gap: 30px;
 }
-/*Suggestion to move this properties to general, and use as an article template. 
-Scalable to other pages the company may add later.*/
 .about article {
   padding: 10px;
 }
-
 .about h2 {
   margin-bottom: 30px;
 }
-
 .about p,
 li {
   font-family: var(--secondary-font);
@@ -23,38 +17,20 @@ li {
   line-height: 130%;
   margin-block-end: 30px;
 }
-
-/* ?????
-.about ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    
-}
-.about ul li::before {
-    content: "•";
-    font-size: 128px;
-    color: var(--main-color);
-}
-*/
-
 .about ul {
   margin-left: 0;
   list-style: none;
   padding-left: 0;
 }
-
 .about li::before {
   content: "•ㅤ";
   color: var(--main-color);
   font-weight: 900;
   font-size: 2rem;
 }
-
-/*OUR MISSION SECTION*/
 .mission {
-  flex-direction: row-reverse; /*Note that this section got the style from the previous one, with the difference that is mirrored with row-reverse*/
+  flex-direction: row-reverse;
   background-color: var(
     --darker-section
-  ); /*And a different background to visually separate them*/
+  );
 }

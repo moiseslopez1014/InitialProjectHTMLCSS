@@ -1,15 +1,10 @@
-/*CONTACT SECTION*/
-
 #contact {
   padding: 100px;
 }
-
-/*CONTACT CONTAINER*/
 .contact__form {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-/*CONTACT INPUTS*/
 .contact__form--inputs {
   margin-top: 40px;
   margin-left: 0;
@@ -28,13 +23,11 @@
   font-size: 1.5rem;
   border: 1px solid #ccc;
 }
-
 .contact__form--inputs input {
   padding: 10px;
   font-size: 16px;
   border: 1px solid #ccc;
 }
-
 .contact__form--inputs button {
   margin: 0;
 }

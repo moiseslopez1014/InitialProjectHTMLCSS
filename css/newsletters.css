@@ -1,5 +1,3 @@
-/*NEWSLETTERS SECTION*/
-
 .newsletters {
   background-color: var(--darkest-section);
   height: 400px;
@@ -8,30 +6,25 @@
   justify-content: center;
   align-items: center;
 }
-/*NEWSLETTERS TITLE*/
 .newsletters h3 {
   font-size: 2rem;
   font-family: var(--main-font);
   font-weight: 900;
   padding-bottom: 50px;
 }
-/*NEWSLETTER BOX*/
 .newsletters div {
   border: 2px solid var(--main-color);
   padding: 10px;
 }
-/*INPUT EMAIL*/
 .newsletters > div > input {
   background-color: transparent;
   border: 0;
   font-size: 1.5rem;
 }
-/*better look when focus*/
 .newsletters > div > input:focus {
   border: none;
   outline: none;
 }
-/*SUBSCRIBE BUTTON*/
 .newsletters > div > button {
   border: 0;
   font-size: 1.5rem;
@@ -42,7 +35,6 @@
 .newsletters > div > button:hover {
   cursor: pointer;
 }
-/*BANNER*/
 #offerBanner {
   position: absolute;
   transform: translateY(-20px) translateX(80vw);
