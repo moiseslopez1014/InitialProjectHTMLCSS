@@ -1,0 +1,41 @@
+/*CONTACT SECTION*/
+
+#contact {
+    padding: 100px;
+}
+
+/*CONTACT CONTAINER*/
+.contact__form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/*CONTACT INPUTS*/
+.contact__form--inputs {
+    margin-top: 40px;
+    margin-left: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+
+}
+.contact__form--inputs textarea {
+    grid-column: span 2;
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    align-content: center;
+    font-family: var(--main-font);
+    padding: 20px;
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+}
+
+.contact__form--inputs input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+.contact__form--inputs button {
+    margin: 0
+}
