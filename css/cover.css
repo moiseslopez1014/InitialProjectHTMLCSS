@@ -23,10 +23,6 @@
     margin-right: -200px; /*OVERLAPPING THE IMAGE*/
     margin-bottom: 30px;/*AWAY FROM P*/
 }
-
-.coloredMain {
-    color: var(--main-color);
-}
 /*PARRAGRAPH*/
 /*no idea about fonts, couldnt find the exact ones, just  similars*/
 .cover p {
