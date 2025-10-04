@@ -40,6 +40,7 @@ I will structure the work maintinig control and documentation among the steps.
 
  # Changelog
 
+8. Newsletters Section.
 7. Contact Section.
 6. Section About with 2 articles.
 5. Section with company stats.
